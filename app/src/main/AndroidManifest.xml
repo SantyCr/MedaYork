@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MedaYork">
         <activity
+            android:name=".SecondActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
