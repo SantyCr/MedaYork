@@ -1,8 +1,3 @@
 <resources>
-    <string name="app_name">MedaYork</string>
-    <string name="appMainActivity">Meda</string>
-    <string name="appMainActivity2">York</string>
-    <string name="buttonMainActivity">Comenzar</string>
-    <string name="titleMainActivity">Recorriendo el sabor</string>
-    <string name="titleMainActivity2">Paisa</string>
+    <string name="app_name">Sitios Turisticos</string>
 </resources>
