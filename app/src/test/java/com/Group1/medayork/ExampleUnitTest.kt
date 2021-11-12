@@ -1,4 +1,4 @@
-package com.Group1.medayork
+package com.group1.medayork
 
 import org.junit.Test
 
