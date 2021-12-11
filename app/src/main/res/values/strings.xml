@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MedaYork</string>
+    <string name="subtitle1">Recorriendo el sabor</string>
+    <string name="subtitle2">Paisa</string>
+    <string name="buttonIndex">Comenzar</string>
+    <string name="title1">Meda</string>
+    <string name="title2">York</string>
+    <string name="title_list_tour">Sitios Turisticos</string>
+    <string name="comuna13">Comuna 13</string>
+    <string name="description_title">Descripcion</string>
+    <string name="description">La comuna 13 es una region muy conocida en la ciduad de medellin por su largo recorrido historico desde los tiempos de pablo escobar ...</string>
+    <string name="temperature_title">Temperatura</string>
+    <string name="temperature">18 C</string>
+    <string name="recommend_places">Sitios Recomendados</string>
+    <string name="locationTitle">Ubicacion</string>
+    <string name="location">Medellin, Colombia</string>
+
+    <string name="notifications">Notificaciones</string>
+    <string name="sound_notifications">Activar sonido de notificaciones</string>
+    <string name="preferences">Preferencias</string>
+
+</resources>

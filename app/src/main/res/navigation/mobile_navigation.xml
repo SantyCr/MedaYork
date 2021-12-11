@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.appwithfragments.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_listTourPlaceFragment"
+            app:destination="@id/listTourPlaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listTourPlaceFragment"
+        android:name="com.example.appwithfragments.listPOI.ListTourPlaceFragment"
+        android:label="fragment_list_tour_place"
+        tools:layout="@layout/fragment_list_tour_place" >
+        <action
+            android:id="@+id/action_listTourPlaceFragment_to_detailTourPlaceFragment"
+            app:destination="@id/detailTourPlaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailTourPlaceFragment"
+        android:name="com.example.appwithfragments.details.DetailTourPlaceFragment"
+        android:label="DetailTourPlaceFragment">
+        <argument
+            android:name="detailPlace"
+            app:argType="com.example.appwithfragments.models.TourPlace" />
+        <action
+            android:id="@+id/action_detailTourPlaceFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.appwithfragments.preference.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.appwithfragments.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

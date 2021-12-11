@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    cardview:cardCornerRadius="5dp"
+    cardview:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:background="#61FFFFFF"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imagePOI"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            cardview:layout_constraintBottom_toBottomOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/namePOI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/comuna13"
+            android:textColor="#000000"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toEndOf="@+id/imagePOI"
+            cardview:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/descriptionPOI"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:text="Una breve descripcion del lugar"
+            android:textColor="#000000"
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toEndOf="@+id/imagePOI"
+            cardview:layout_constraintTop_toBottomOf="@+id/namePOI" />
+
+        <RatingBar
+            android:id="@+id/ratingPOI"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FF0000"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="#FF0000"
+            android:rating="5"
+            android:secondaryProgressTint="#00FFFFFF"
+            cardview:layout_constraintBottom_toBottomOf="parent"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.969"
+            cardview:layout_constraintStart_toEndOf="@+id/descriptionPOI" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

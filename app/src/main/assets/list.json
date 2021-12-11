@@ -1,0 +1,42 @@
+[
+  {"img":"https://travelgrafia.co/wp-content/uploads/2019/05/piedra-del-pen%CC%83ol-horario.jpg",
+    "name":"Guatape",
+    "description":"Este municipio turístico de los Andes es un lugar muy acogedor, conocido por sus casas pintadas de colores al mejor estilo colonial y campestre. Guatapé se encuentra cerca del embalse artificial y también muy famosa Piedra del Peñol, lo que lo ha convertido en epicentro de aventura, ambiente ecológico, deportes náuticos y las más hermosas fotos de paisajes para los viajeros.",
+    "rating":"5.0",
+    "temperature": "21°C",
+    "location": "Localizado en la subregión Oriente del departamento de Antioquia. Limita por el norte con el municipio de Alejandría, por el este con el municipio de San Rafael, por el sur con  Granada  y por el Oeste con El Peñol. Su cabecera dista 75 kilómetros de la ciudad de Medellín.",
+    "recommendedPlaces": "El Peñol, Iglesia de Nuestra Señora del Carmen, El Embalse, Casa Museo del Viejo Peñol, La Calle del recuerdo en Guatapé, Plazoleta del Zócalo,..."
+  },
+  {"img":"https://cdn.getyourguide.com/img/location/5d3018edaae97.jpeg/88.jpg",
+    "name":"Pueblito Paisa",
+    "description":"Es uno de los sitios turísticos más visitados de la ciudad que combina tres elementos que todos amamos: la tradición antioqueña que se refleja en las artesanías, gastronomía y arquitectura del lugar; la vista majestuosa de Medellín y las montañas que recorren el Valle de Aburrá.",
+    "rating":"4.2",
+    "temperature":"21°C",
+    "location":"Localizado en el corazon de Medellin por lo que se puede caminar desde la estación Industriales del Metro de Medellín hasta el Pueblito Paisa.",
+    "recommendedPlaces":"El Pueblito Paisa tiene un teatro al aire libre, senderos peatonales, esculturas, plazoletas, miradores,puestos de comida tradicional. Todo enmarcado en una arquitectura típica de la zona."
+  },
+  {"img":"https://www.semana.com/resizer/wFTrpIdp2526Y7nBAjkD1KMQpOA=/1200x900/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/IQXNYBPJTJHZ3ABLUFWSKYSIPQ.jpg",
+    "name":"Comuna 13",
+    "description":"Esta comuna es conocida con el nombre de “La cuna de Pablo Escobar”, donde tiempo atrás era un epicentro de violencia, casas precarias construidas en medio de las colinas, calles estrechas y empinadas, que generaban múltiples callejones y miradores, ideales para delincuentes y el comercio de droga. \n\nAllí ocurrieron dos de las operaciones militares más sangrientas y recordadas de la ciudad, la operación Mariscal y Orión.",
+    "rating":"4.5",
+    "temperature":"21°C",
+    "location":"San Javier o La Comuna 13 es una de las dieciséis comunas de Medellín y se ubica al occidente de la ciudad, en sus 74 km2 acoge más de dieciocho barrios.",
+    "recommendedPlaces":"Escaleras mecánicas, Arte callejero, Graffiti Tour Comuna 13, "
+  },
+  {"img":"https://www.licenciaparaviajar.com/wp-content/uploads/2018/07/jardin-botanico-1024x812.jpg",
+    "name":"Jardín Botánico",
+    "description":"Es un gran museo vivo ubicado en pleno corazón de la ciudad y su principal objetivo es crear experiencias de encuentro y convivencia para la ciudad, integradas a estrategias de investigación, conservación y cultura asociadas a la biodiversidad y a la relación del ser humano con el entorno natural.",
+    "rating":"4.2",
+    "temperature":"21°C",
+    "location":"Está ubicado en el centro de la ciudad y lo comprenden 13.2 hectáreas de extensión.",
+    "recommendedPlaces":"Colecciones vivas de plantas agrupadas en aulas vivas de aprendizaje, Bosque tropical, Jardín de las palmas, Laguna Francisco José de Caldas, Patio de las azaleas, Jardín vertical del Teatro Suramericana, La casa de las mariposas, ..."
+  },
+  {"img":"https://www.medellin.travel/wp-content/uploads/elementor/thumbs/Botero_0011_2-ox16deif8nvmpu5x0bsmiibmnyc84ivkkx1j0fes68.jpg",
+    "name":"Plaza Botero",
+    "description":"Monumentales figuras de bronce adornan con gracia las inmediaciones del Museo de Antioquia en uno de los lugares más icónicos y tradicionales de Medellín: El Parque Berrío, sede del único lugar al aire libre en el mundo que cuenta con 23 esculturas del Maestro Fernando Botero, las cuales fueron donadas en el 2002 a la ciudad y se convertirían en la excusa perfecta para inaugurar la Plaza de las Esculturas, o como todo el mundo la conoce en Medellín, La Plaza Botero. Allí, las esculturas de bronce son expresión viva de la sensualidad que el maestro Botero quiere expresar con su obra a través del volumen.",
+    "rating":"4.5",
+    "temperature":"21°C",
+    "location":"La Plaza Botero se encuentra en pleno centro de la ciudad sobre la Avenida Carabobo en la Plazuela Nutibara.",
+    "recommendedPlaces":"Visitar el Museo de Antioquia también es un paso obligado en tu visita por Medellín, el cual además de las más de 100 obras del maestro Botero, acoge también 17 salas de exposiciones permanentes de arte prehispánico, republicano y contemporáneo."
+  }
+]
